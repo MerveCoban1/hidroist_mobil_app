@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".GaleriActivity">
+    <TextView
+        android:text="Galeri"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:background="#3498DB"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/edit_arka_plan"
+            android:id="@+id/old_post_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="Paylaşımlarım" />
+
+        <Button
+            android:background="@drawable/edit_arka_plan"
+            android:id="@+id/add_post_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="Paylaş" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "157601850606",
+    "project_id": "hidroist1453uygulamam",
+    "storage_bucket": "hidroist1453uygulamam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157601850606:android:2b7f05c8a118031b2c3fff",
+        "android_client_info": {
+          "package_name": "com.example.hidroist1453uygulamam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157601850606-fdukprcod29slcv2udrk3aq9oe85rv08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeMruBo-TdSBIZT-6hyw1cAfQ4whyV3Qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157601850606-fdukprcod29slcv2udrk3aq9oe85rv08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

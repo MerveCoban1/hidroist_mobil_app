@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".LogInActivity">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:hint="e-mail"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/sifreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sifre"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton_back"
+        android:text="Giris Yap" />
+
+    <TextView
+        android:id="@+id/sifremiUnuttumTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:text="Sifremi Unuttum"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signUpTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:text="Uye Ol !"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>

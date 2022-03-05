@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hesabim"
+            android:icon="@drawable/ok"
+            android:title="Hesabım" />
+        <item
+            android:id="@+id/sohbet"
+            android:icon="@drawable/ok"
+            android:title="Sohbet" />
+        <item
+            android:id="@+id/ekip"
+            android:icon="@drawable/ok"
+            android:title="Ekip"/>
+        <item
+            android:id="@+id/galeri"
+            android:icon="@drawable/ok"
+            android:title="Galeri" />
+        <item
+            android:id="@+id/degerler"
+            android:icon="@drawable/ok"
+            android:title="Değerler" />
+        <item
+            android:id="@+id/cikisYap"
+            android:icon="@drawable/ok"
+            android:title="Çıkış Yap" />
+    </group>
+</menu>

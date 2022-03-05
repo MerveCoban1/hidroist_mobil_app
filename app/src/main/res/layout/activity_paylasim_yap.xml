@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:paddingTop="100dp"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaylasimYapActivity">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/share"
+            android:id="@+id/eklePaylasimlaraImageView"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/yorumPaylasimlaraEditText"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Yorum Ekle :"/>
+    <Button
+        android:background="#D2D7D3"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:id="@+id/eklePaylasimlaraButton"/>
+
+</LinearLayout>

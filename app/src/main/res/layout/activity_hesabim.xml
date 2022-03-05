@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8E2EC"
+    android:orientation="vertical"
+    tools:context=".HesabimActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/default_profile"
+        app:civ_border_color="#3498DB"
+        app:civ_border_width="1dp" />
+
+    <EditText
+        android:id="@+id/kullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:enabled="true"
+        android:hint="Kullanici Adi:"
+        android:textColor="#0F3057" />
+    <EditText
+        android:id="@+id/departman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:enabled="true"
+        android:hint="Departman:"
+        android:textColor="#0F3057" />
+
+    <Button
+        android:id="@+id/bilgiGuncelleOlButonu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton_back"
+        android:text="Kaydet" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/sifreDegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/text_view_back_1"
+        android:text="Sifre Degistir" />
+
+    <Button
+        android:id="@+id/emailDegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/text_view_back_1"
+        android:text="E-mail Degistir" />
+
+    <Button
+        android:id="@+id/hesabiSil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_back_1"
+        android:text="Hesabi Sil" />
+</LinearLayout>
+
+
+</LinearLayout>
